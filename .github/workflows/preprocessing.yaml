@@ -34,6 +34,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           # Menyimpan hasil yang ada di dalam folder preprocessing
-          git add preprocessing/namadataset_preprocessing.csv
+          git add preprocessing/StudentPerformanceFactors_preprocessing.csv
           git commit -m "Auto-update: Preprocessed data terbaru" || echo "Tidak ada perubahan data"
           git push
