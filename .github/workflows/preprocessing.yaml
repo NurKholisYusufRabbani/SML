@@ -26,7 +26,7 @@ jobs:
           pip install pandas scikit-learn
 
       - name: Run Preprocessing Script
-        run: python preprocessing/automate_Nur Kholis Yusuf Rabbani.py
+        run: python preprocessing/automate_Nur_Kholis_Yusuf_Rabbani.py
 
       - name: Commit and Push Processed Data
         run: |
